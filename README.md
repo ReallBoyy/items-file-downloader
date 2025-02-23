@@ -10,6 +10,6 @@ How to use it?
 6. wait it until it is clearly done
 
 If you're still didn't understand how to use it you can just watch my youtube video there
-https://youtu.be/cQhddagFB3I?si=9wJPdGYGv64hKYCj
+[![Tutorial Video](http://img.youtube.com/vi/cQhddagFB3I?si=9wJPdGYGv64hKYCj/0.jpg)](http://www.youtube.com/watch?v=cQhddagFB3I?si=9wJPdGYGv64hKYCj)
 
 Enjoy it!
