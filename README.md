@@ -14,7 +14,7 @@ This repository expects you to already have decoded `items.dat` into `items.json
 
 ## Requirements
 - Nodejs 18 or higher version.
-https://nodejs.org/en/download
+- `https://nodejs.org/en/download`
 
 ## Quick start
 
