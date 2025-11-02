@@ -5,7 +5,7 @@ const config = require("./config.json");
 
 const url = config.url;
 
-const fetch = async (id, paths) => {
+const Download = async (id, paths) => {
     try {
         const response = await axios.get(url + paths);
         const c = 'cache/';
@@ -73,11 +73,12 @@ const RunProgram = async () => {
             }
             if (item[i].str_version_16 !== "") { 
                 const file3 = item[i].str_version_16;
-                await fetch(i, `GameData/ItemRenderers/${file3}`);
+                await Download(i, `GameData/ItemRenderers/${file3}`);
             }
         }
     } catch (error) { console.error(error); }
 }
 
 RunProgram();
+
 //onsole.log("All file in items.json downloaded!");
