@@ -13,7 +13,7 @@ This repository expects you to already have decoded `items.dat` into `items.json
 - Batch operation using included .bat scripts for Windows.
 
 ## Requirements
-- (Nodejs 18 or higher version)[https://nodejs.org/en/download]
+- [Nodejs 18 or higher version](https://nodejs.org/en/download)
 
 ## Quick start
 
