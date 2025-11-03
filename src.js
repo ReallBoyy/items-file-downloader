@@ -87,7 +87,7 @@ const ItemDownloads = async (id, paths) => {
     }
    else {
         try {
-            const res = await fetch(url + paths, { headers: headerUsed });
+            const res = await fetch(`${url}game/${paths}`, { headers: headerUsed });
             if (!res.ok) return console.log(`ItemID ${id}: status=${res.status} [${url}${paths}]`);
             const buff = await res.arrayBuffer();
 
@@ -137,4 +137,5 @@ async function RunProgram() {
 }
 
 RunProgram();
+
 
